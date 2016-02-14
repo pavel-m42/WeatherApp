@@ -31,18 +31,6 @@ namespace WeatherApp
             
             ApplicationView.PreferredLaunchViewSize = new Size(770, 550);
             ApplicationView.PreferredLaunchWindowingMode = ApplicationViewWindowingMode.PreferredLaunchViewSize;
-            //ApplicationView appView = ApplicationView.GetForCurrentView();
-            //appView.TryResizeView(new Size(600, 500));
-            
-        }
-
-        private void Page_Loaded(object sender, RoutedEventArgs e)
-        {
-            /*ApplicationView.PreferredLaunchViewSize = new Size(600, 500);
-            ApplicationView.PreferredLaunchWindowingMode = ApplicationViewWindowingMode.PreferredLaunchViewSize;
-
-            ApplicationView appView = ApplicationView.GetForCurrentView();
-            appView.TryResizeView(new Size(600, 500));*/
         }
     }
 
